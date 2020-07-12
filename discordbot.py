@@ -26,49 +26,49 @@ async def on_message(message):
     if message.author.bot:  # ボットのメッセージをハネる
         return
 
-    if message.content == "goodmorning":
+    if message.content == "GoodMorning":
         # チャンネルへメッセージを送信
         await message.channel.send(f"{message.author.mention}さん Good morning")  # f文字列（フォーマット済み文字列リテラル）
         
-    if message.content == "/tip 29coin 10000 <@700176826282147851>":
+    if message.content == "/tip 29coin 20000 <@700176826282147851>":
         # チャンネルへメッセージを送信
-        await message.channel.send("/tip JPYN 3.9 "f"{message.author.mention}　  <:winmen:701341863789068288> 🌈Rains☔ 🥩29coin Thanks!<:JPYNdisco:698471276498649168> ")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send("/tip JPYN 8 "f"{message.author.mention}　  <:winmen:701341863789068288> 🌈Rains☔ 🥩29coin Thanks!<:JPYNdisco:698471276498649168> ")  # f文字列（フォーマット済み文字列リテラル）
     
-    if message.content == "/tip 29coin 100000 <@700176826282147851>":
+    if message.content == "/tip 29coin 200000 <@700176826282147851>":
         # チャンネルへメッセージを送信
-        await message.channel.send("/tip JPYN 39.29 "f"{message.author.mention}　  <:winmen:701341863789068288> 🌈Rains☔ 🍖🥩29coin Thanks!<:JPYNdisco:698471276498649168> ")  # f文字列（フォーマット済み文字列リテラル）  
+        await message.channel.send("/tip JPYN 80 "f"{message.author.mention}　  <:winmen:701341863789068288> 🌈Rains☔ 🍖🥩29coin Thanks!<:JPYNdisco:698471276498649168> ")  # f文字列（フォーマット済み文字列リテラル）  
         
     if message.content == "goodnight":
         # チャンネルへメッセージを送信
         await message.channel.send(f"{message.author.mention}さん Good Night! Go to bed early♡")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "おはよう":
+    if message.content == "hola":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん ☆おはようございます☆")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"{message.author.mention}さん ☆hola☆")  # f文字列（フォーマット済み文字列リテラル）
         
-    if message.content == "goodevening":
+    if message.content == "good afternoon":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん　Good evening～☆" )  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"{message.author.mention}さん　Good afternoon～☆" )  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "Hello":
+    if message.content == "HELLO":
         # チャンネルへメッセージを送信
         await message.channel.send(f"{message.author.mention} ☆༺.Hello All.Everyone! Thank you!☆")  # f文字列（フォーマット済み文字列リテラル）
  
-    if message.content == "こんにちは":
+    if message.content == "buenos dia":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん こんにちは☺️楽しんで！")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"{message.author.mention}さん buenos dia🌟！Good morning🌞")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "こんばんは":
+    if message.content == "GOODNIGHT":
         # チャンネルへメッセージを送信
         await message.channel.send(f"{message.author.mention}さん こんばんは😃🌃早く休みましょう🎵")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "おはよー":
+    if message.content == "mui buenos dias":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん GoodMorning♡")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"{message.author.mention}さん mui buenos dias♡")  # f文字列（フォーマット済み文字列リテラル）
 
-    if message.content == "おやすみなさい":
+    if message.content == "buena noches":
         # チャンネルへメッセージを送信
-        await message.channel.send(f"{message.author.mention}さん Good Night! Have a good dream♡")  # f文字列（フォーマット済み文字列リテラル）
+        await message.channel.send(f"{message.author.mention}さん Buena noches! Have a good day")  # f文字列（フォーマット済み文字列リテラル）
 
     if message.content == "jp/jpyn":
         # チャンネルへメッセージを送信
@@ -165,7 +165,7 @@ async def on_message(message):
             
     elif message.content == "./Rain":
         # リアクションアイコンを付けたい
-        q = await message.channel.send("  /rain BEN 30 ActiveUserOnly  <:benkeicoinsl:698471387064696833>🌈☔It Rains")
+        q = await message.channel.send("  /rain BEN 3 ActiveUserOnly  <:benkeicoinsl:698471387064696833>🌈☔It Rains")
         [await q.add_reaction(i) for i in ('<:BENKEICOIN04:698471407650209832>', '<:benkeicoinsl:698471387064696833>')]  # for文の内包表記
 
         
@@ -196,55 +196,55 @@ async def on_message(message):
         
     elif message.content == "./THROW":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw BEN 80 4 EquallyDistributed  <:benkeicoinsl:698471387064696833>Pls receive→/catch✋")
+        q = await message.channel.send(" /throw BEN 3 30 EquallyDistributed  <:benkeicoinsl:698471387064696833>Pls receive→/catch✋")
         [await q.add_reaction(i) for i in ('<:BENKEICOIN04:698471407650209832>', '<:good:699580636448423936>')]  # for文の内包表記
 
         
     elif message.content == "./THrow":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw JPYN 100 4 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168>Pls receive→/catch✋")
+        q = await message.channel.send(" /throw JPYN 300 30 EquallyDistributed  <:good01:699581068285706301><:JPYNdisco:698471276498649168>Pls receive→/catch✋")
         [await q.add_reaction(i) for i in ('<:JPYNdisco:698471276498649168>', '<:good01:699581068285706301>')]  # for文の内包表記
 
         
     elif message.content == "./THRow":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw KENJ 400 4 EquallyDistributed  <:kenj:700136543003607101>Pls receive→/catch✋")
+        q = await message.channel.send(" /throw KENJ 400 10 EquallyDistributed  <:kenj:700136543003607101>Pls receive→/catch✋")
         [await q.add_reaction(i) for i in ('<:kenj:700136543003607101>', '<:good01:699581068285706301>')]  # for文の内包表記
 
 
     elif message.content == "./THROw":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw BGPT 300 5 EquallyDistributed  <:good01:699581068285706301><:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch✋")
+        q = await message.channel.send(" /throw BGPT 300 30 EquallyDistributed  <:good01:699581068285706301><:BGPT02:698471366004965406><:BGPT02:698471366004965406>Pls receive→/catch✋")
         [await q.add_reaction(i) for i in ('<:BGPT02:698471366004965406>', '<:good:699580636448423936>')]  # for文の内包表記
 
 
     elif message.content == "./thunder":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /thunder BGPT 300 ActiveUserOnly  <:good:699580636448423936><:BGPT02:698471366004965406>thunder")
+        q = await message.channel.send(" /thunder BGPT 30 ActiveUserOnly  <:good:699580636448423936><:BGPT02:698471366004965406>thunder")
         [await q.add_reaction(i) for i in ('<:BGPT02:698471366004965406>', '<:BGPT02:698471366004965406>')]  # for文の内包表記
 
         
     elif message.content == "./tHROW":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw BGPT 500 4 AttenuationDistributed  <:BGPT02:698471366004965406><:good:699580636448423936>")
+        q = await message.channel.send(" /throw BGPT 300 30 AttenuationDistributed  <:BGPT02:698471366004965406><:good:699580636448423936>")
         [await q.add_reaction(i) for i in ('<:BGPT02:698471366004965406>', '<:hello1:713004241131667528>')]  # for文の内包表記
     
     
     elif message.content == "./thROW":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw BEN 100 4 AttenuationDistributed  <:benkeicoinsl:698471387064696833>Pls receive→/catch✋")
+        q = await message.channel.send(" /throw BEN 10 30 AttenuationDistributed  <:benkeicoinsl:698471387064696833>Pls receive→/catch✋")
         [await q.add_reaction(i) for i in ('<:BENKEICOIN04:698471407650209832>', '<:good:699580636448423936>')]  # for文の内包表記
  
     
     elif message.content == "./thrOW":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw JPYN 100 4 AttenuationDistributed  <:JPYNdisco:698471276498649168>Pls receive→/catch✋")
+        q = await message.channel.send(" /throw JPYN 100 10 AttenuationDistributed  <:JPYNdisco:698471276498649168>Pls receive→/catch✋")
         [await q.add_reaction(i) for i in ('<:JPYNdisco:698471276498649168>', '<:good01:699581068285706301>')]  # for文の内包表記
 
         
     elif message.content == "./THRow":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /throw KENJ 1000 4 AttenuationDistributed  <:kenj:700136543003607101>Pls receive→/catch✋")
+        q = await message.channel.send(" /throw KENJ 1000 10 AttenuationDistributed  <:kenj:700136543003607101>Pls receive→/catch✋")
         [await q.add_reaction(i) for i in ('<:kenj:700136543003607101>', '<:good01:699581068285706301>')]  # for文の内包表記
 
         
@@ -274,12 +274,12 @@ async def on_message(message):
         
         
 
-    elif message.content == "おみくじ":
+    elif message.content == "La fortuna de hoy":
         # Embedを使ったメッセージ送信 と ランダムで要素を選択
-        embed = discord.Embed(title="おみくじ", description=f"{message.author.mention}さんの今日の運勢は！",
+        embed = discord.Embed(title="La fortuna de hoy", description=f"{message.author.mention}さんの今日の運勢は！",
                               color=0x2ECC69)
         embed.set_thumbnail(url=message.author.avatar_url)
-        embed.add_field(name="[今日の運勢YourFortune] ",
+        embed.add_field(name="[La fortuna de hoy] ",
                         value=random.choice(('☆☆彡超最高☆彡☆【何してもVeryGood!☆勝負に強い日です】','☆最高☆【チームに恵まれた日です。チャレンジしたら幸運を招きます☆彡】','やったね☆彡！【納得出来る日でしょう。金運は余り期待出来ないです。】','利益が出る☆彡！【法廷通貨の金運は余り期待出来ないですが！暗号通貨（仮想通貨）において、思わぬ利益が見込めるね☆】'
                                              ,'大吉【☆☆☆自信もって取り組めば必ず好成果となって返ってきます。♡♡♡恋愛運は超ベリグっ】', '中吉【☆☆好チャンス！攻めて成果あり。♡♡とりあえず問題なしかな！？】', '小吉【☆☆通常のセオリーを変化させたら好成果となる。♡♡現状から変化ない】'
                                              ,  '末吉【☆☆参加型オンラインゲームで好成果あり♡ゲームばかりじゃダメ。出会いを求めて外にでたら吉あり】', '吉【☆現状変化なし♡特に変化なし。そのままやっとけ！】', 'ちょい吉【☆と。り。あ。え。ず。って感じ。意味はとりあえずチャレンジしたら吉！】', '吉【☆まぁ！適当に！こんなもんよ】'
@@ -288,12 +288,12 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-    elif message.content == "omikuji":
+    elif message.content == "fortuna":
         # Embedを使ったメッセージ送信 と ランダムで要素を選択
-        embed = discord.Embed(title="☆OMIKUJI☆", description=f"{message.author.mention}Today!YourFortune!☆",
+        embed = discord.Embed(title="☆La fortuna de hoy☆", description=f"{message.author.mention}Today!YourFortune!☆",
                               color=0x2ECC69)
         embed.set_thumbnail(url=message.author.avatar_url)
-        embed.add_field(name="[Today!YourFortune!] ",
+        embed.add_field(name="[La fortuna de hoy] ",
                         value=random.choice(('☆☆彡VeryVeryGood☆彡☆【Very Good! It ’s a very competitive day.】','☆VeryGoood!☆【It is a good day for the team. 】','Good☆彡！【It will be a convincing day. I can not expect much money.】'
                                              ,'VeryGood【☆☆☆If you work with confidence, you will always get good results. ♡♡♡ Love luck is super berig】', 'GoodDay【☆☆Good chance! There is a result of attacking. ♡♡ For the time being, there is no problem! ?】', 'Good!【☆☆ If you change the usual theory, you will get good results. ♡♡ No change from the current situation】'
                                              ,  'usuallyGood【☆☆Good results with participatory online games ♡ Not only games. Good luck if you go outside to meet】', 'good!【☆The current situation is unchanged ♡ No particular change Let it go！】',  'Good!【☆I do not need any advice】'
@@ -303,7 +303,7 @@ async def on_message(message):
 
 
 
-    elif message.content == "!ダイレクトメッセージ":
+    elif message.content == "!twich":
         # ダイレクトメッセージ送信
         dm = await message.author.create_dm()
         await dm.send(f"{message.author.mention}さん Benkeis TwitchTV🎮 Followお願いね！ https://www.twitch.tv/benkeis ")
